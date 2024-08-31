@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Taklif noma!</title>
+  </head>
+  <body>
+    <div class="invitation">
+      <header>
+        <h1>Hurmatli mehmonlar!</h1>
+        <p>
+          Sizni Teshavoy va Boltaxonning nikoh to'yining faxriy mehmoni
+          bo'lishga taklif qilamiz.
+        </p>
+        <p>
+          Qalblar ezguliklarga to‘la bo‘lgan ushbu qutlug‘ kunda do‘stlar yonida
+          bo‘ling!
+        </p>
+      </header>
+      <section class="details">
+        <p><strong>Bayramni boshlash vaqti:</strong> 15.09.2024 / soat 6:43</p>
+        <p><strong>To'y manzili:</strong> Yakkasaroy to'yxonasi</p>
+        <a
+          href="https://maps.app.goo.gl/TEXWautMbXGR8cpm8"
+          target="_blank"
+          class="map-button"
+          >Karta orqali ochish</a
+        >
+      </section>
+      <div class="countdown">
+        <div id="days" class="time"><span>kun</span></div>
+        <div id="hours" class="time"><span>soat</span></div>
+        <div id="minutes" class="time"><span>daqiqalar</span></div>
+        <div id="seconds" class="time"><span>soniyalar</span></div>
+      </div>
+
+      <button id="playAudio"><h1 id="tn">Taklif nomani ochish uchun ustiga bosing</h1></button>
+
+      <audio id="myAudio" loop>
+        <source src="./toylar.m4a" type="audio/mpeg" />
+      </audio>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
